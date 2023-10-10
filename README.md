@@ -50,3 +50,12 @@ mapear rotas config/routes.rb
 
 
 http://localhost:3000/cities.json -> apos o ponto é o formato, para  trazer .pdf tem que configurar
+
+
+### ler mais sobre
+collect traz e manipula os dados formando novo array
+
+pluck so traz a informação pura.
+###
+
+estaudar sobre activeRecord para fazer SQLs
