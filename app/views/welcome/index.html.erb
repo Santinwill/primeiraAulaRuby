@@ -7,3 +7,19 @@
 <%= link_to "Cidades 2", "/cities" %> # forma 02
 
 <p>O idioma padrão é: <%= I18n.locale%></p>
+
+
+<h2>cookie <%= cookies[:teste_C] %></h2>
+
+<h2>session <%= session[:teste_S] %></h2>
+
+<p><%= link_to 'English', '/?locale=en' %></p>
+
+<p><%= link_to 'Português', root_path(locale:"pt-BR")%></p>
+
+
+<% alert_msg = Time.now.hour < 12 ? "Bom dia" : Time.now < 18 ? "Boa Tarde" : "Boa Noite" %>
+<script>
+    $.notify("<%= alert_msg %>", "success");
+    console.log("teste");
+</script>

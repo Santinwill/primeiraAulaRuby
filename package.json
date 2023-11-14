@@ -1,5 +1,13 @@
 {
   "name": "projetinho",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "jquery": "^3.7.1",
+    "notify-js-legacy": "^0.4.1"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Santinwill/primeiraAulaRuby.git",
+  "author": "Santin W <santin.pw@gmail.com>",
+  "license": "MIT"
 }
