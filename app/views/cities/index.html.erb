@@ -2,7 +2,7 @@
 
 <h1>Cities</h1>
 
-<table>
+<table class="highlight responsive-table striped"> 
   <thead>
     <tr>
       <th>Cod</th>
@@ -20,13 +20,14 @@
         <td><%= city.name %></td>
         <td><%= city.image %></td>
         <td><%= city.state_id %></td>
-        <td><%= link_to 'Show', city %></td>
+        <td><a class="waves-effect waves-light btn-small"><%= button_to 'Show', city, method: :get %></a></td> 
         <td><%= link_to 'Edit', edit_city_path(city) %></td>
         <td><%= link_to 'Destroy', city, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
   </tbody>
 </table>
+
 
 <br>
 
